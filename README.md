@@ -1,0 +1,1 @@
+This is a repository dedicated to the Course Software Engineering - 2. All Projects and assignments will be uploaded here. 
