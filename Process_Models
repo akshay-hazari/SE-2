@@ -1,0 +1,61 @@
+
+1 ) WATERFALL MODEL :
+
+  The model involves a linear sequence of phases. The output of one phase is the input to the next. An erroneous output in one phase results in a a faulty output for the subsequent phases. 
+
+  It has phases like : Communication , Planning , Modeling , Construction , Deployment .
+
+  Communication phase : It involves project initiation, requirements gathering. 
+  		Project initiation involves tasks like identification of business needs , objectives , Defining major features and functions.
+  		Requirements Gathering consists of identifying content requirement and functional requirement.
+ 
+ Planning : It has to do with estimating, scheduling and tracking. 
+ 	  Estimation determines how much money,time, effort and resources will be reuired to build a product. Feasibility study enables us to do such estimation. Aspects such as Technical Feasibility , Economical and Operational feasibility are used to evaluate the cost and benefits of the requested system.
+ 	  Scheduling : A product delivery schedule along with intermediate stage completion schedules is decided. 
+ 	  Tracking : Tracking is done to establish a relation between work completed according to the established schedule and make necessary arrangements.
+
+ Modelling : Modeling stage involves establishment of data and program structure. The goal is to translate the design into operational software. 
+ 	   System Analysis : It involves the way things are to be done i.e  definition of the system. Dividing it into smaller and managable parts. Understanding the function and interrelationship of various subsystems.
+	   System Design : It defines the way how a system will meet the requirements which are identified during analysis.
+ Construction : In this phase actual development of software by coding and testing is carried out. 
+ Deployment : It involves delivery, support and feedback. 
+
+2) Rapid Application Development Model : The model gives a quick approach for software development. This model emphasizes a short development cycle . It is a high speed adaptation of the waterfall model. It achieves rapid application development by component based construction.   It puts importance to planning but more on development.  In contrast to the waterfall model, which emphasizes rigorous specification and planning, RAD approaches emphasize the necessity of adjusting requirements in reaction to knowledge gained as the project progresses.This causes RAD to use prototypes in addition to or even sometimes in place of design specifications.
+
+Advantages : As users interact with evolving prototypes	, the functionality achieved can be higher than Waterfall model.
+  Early identification of key risk factors and adjusting to them in the early part of the process.Projects get completed in time and within budget.
+
+Disadvantages : The risk factor increases as there may be a need to consider a new approach. The rapid application of the product may sometimes result in a poor design. 
+
+3) Incremental Model : It is used to produce software in increments. There are a series of releases called increments which add more functionality to the software. It adds new features in the course of time . Each new update produces a new release of deliverable software product. With each increment provided to the user, it adds to the evaluation by the user and thereby the refinements in the software. The incremental model applies the waterfall model incrementally.The incremental philosophy is also used in the agile process model.
+
+Advantages :
+    After each iteration, regression testing should be conducted. During this testing, faulty elements of the software can be quickly identified because few changes are made within any single iteration.
+    It is generally easier to test and debug than other methods of software development because relatively smaller changes are made during each iteration. This allows for more targeted and rigorous testing of each element within the overall product.
+    Customer can respond to features and review the product for any needful changes.
+    Initial product delivery is faster and costs lower.
+
+Disadvantages :
+
+    Resulting cost may exceed the cost of the organization.
+    As additional functionality is added to the product, problems may arise related to system architecture which were not evident in earlier prototypes.
+
+4) Evolutionary Process models : A software can be viewed as evolving with time. They are built in a manner that enables software engineers to develop increasingly more complex versions of the software. A software engineer needs a process model that has been explicitly designed to accomodate a product that evolves over time. Evolutionary models are iterative. This provides for production of an increasingly more complete version of software.
+
+Advantages : It provides flexibility in modifying the requirements.
+	   The prototypes are very visual , hence there are no ambiguities.
+Disadvantages : It is hard to trace the process due to the ad-hoc nature .
+	      Systems are often poorly structured.
+	      Not cost effective to produce documents.
+5) Spiral model : It combines the iterative nature of the Prototyping model with the controlled and systematic aspects of the Waterfall model.
+   The model represented by spiral contains four stages and each stage is represented by one quadrant of the Cartesian diagram . Each loop in the spiral represents a phase of the software. Each loop is split into four sectors : Object setting (set specific object for that phase), Risk assesment and reduction, Development and validation(select a development model based on the risk levels ), Planning (decide if a next loop is required).
+
+  Advantages : Explicit consideration of risks. More detailed processes for each development phase.
+  Disadvantages : Cost is high. Sometime difficult to implement or too time consuming.
+
+6)Component based development model :
+  Commercial off the shelf software components develop 
+ 
+
+
+	  
