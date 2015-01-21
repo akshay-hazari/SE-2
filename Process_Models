@@ -54,8 +54,53 @@ Disadvantages : It is hard to trace the process due to the ad-hoc nature .
   Disadvantages : Cost is high. Sometime difficult to implement or too time consuming.
 
 6)Component based development model :
-  Commercial off the shelf software components develop 
- 
+  Commercial software components are used to build a software. It gives a targetted functionality with well defined interfaces.
+ It has many characteristics of spiral model. Regardless of the technology used , it must research and evaluate available component based products for current application.
+Components are integrated into the architecture. 
+Advantages : This model leads to software reuse.
+Disadvantages : Component integration issues are to be dealt. The software has to be designed to accomodate components.
+Comprehensive testing is to be done to ensure proper functionality.
 
+7) Formal methods model : 
+Comprises set of activities that leads to formal mathematical specification of computer software.
+Enables a software engineer to specify, develop and verify a computer based system by applying
+mathematical notation.
+Advantages : Problems of ambiguity, incompleteness and inconsistency can be managed by this method.
+Provides a base for verification therefore enable a software engineer to discover and correct undetected errors also.
+Disadvantages : It is difficult to use the models as a communication mechanism for technically unsophisticated customers.
+Extensive training is required for applying this method as few developers have the necessary background to work with this method
+
+8) Unified Process Model : 
+Comprises best features and characteristics of conventional software process models.
+Emphasize importance of customer communication and streamlined methods for describing the customers view of
+system.
+Phases of Unified Process
+Inception : Involves customer communication and planning activities.
+Elaboration : Encompasses the customer communication and modeling activities of the generic process model. Architectural representation using, 
+Use Case Model, Analysis Model, Design Model, Implementation Model and Deployment Model.
+Construction : Develops or acquires the software components that will make each use case operational for
+end users.
+Transition : Software is given to end user for beta testing and user feedback reports both defects and necessary
+changes.
+Production : Coincides with the deployment activity of process. The on going use of software is monitored, support for the operating environment is provided, and
+defect reports and requests for changes are submitted and evaluated.
+
+9) Aspect oriented software development model : 
+Complex software are being implemented as set of localized features, functions and information content referred as components.
+But it becomes crosscutting concerns when it flows across multiple systems.
+Aspectual requirements define these crosscutting concerns that have impact across the software architecture.
+The model provides a process and methodological approach for defining, specifying, designing and constructing aspects.
+
+10) Agile process model :
+Agile model believes that every project needs to be handled differently and the existing methods need to be tailored to best suit the project requirements.
+In agile the tasks are divided to time boxes (small time frames) to deliver specific features for a release.
+Iterative approach is taken and working software build is delivered after each iteration. 
+Each build is incremental in terms of features .The final build holds all the features required by the customer.
+Advantages : 
+Is a very realistic approach to software development.
+Promotes teamwork and cross training.
+Disadvantages : 
+Not suitable for handling complex dependencies.
+More risk of sustainability, maintainability and extensibility.
 
 	  
